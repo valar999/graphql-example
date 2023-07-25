@@ -1,0 +1,9 @@
+type Query {
+  transactions: [Transaction!]!
+}
+
+type Transaction {
+  id: ID!
+  amount: Float!
+  date: String!
+}
